@@ -3,7 +3,7 @@ export default function FormCheckbox(props) {
   return (
     <div class="form-section__individual-checkbox-container">
       <label for={kebabCasedName}>{props.name}</label>
-      <input type="checkbox" id={kebabCasedName} name={kebabCasedName} />
+      <input type="checkbox" id={kebabCasedName} name={kebabCasedName} onchange={() => props.toggleChange(kebabCasedName)} />
     </div>
   )
 }
