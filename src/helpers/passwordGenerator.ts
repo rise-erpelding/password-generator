@@ -162,7 +162,7 @@ const makeListOfEligibleCharacters = (eligibleCharacterTypes: string[]): string 
  * @param {PasswordOptions} passwordOptions - Options for generating the password.
  * @returns {string} The generated password.
  */
-const generatePassword = (passwordOptions: PasswordOptions): string => {
+export const generatePassword = (passwordOptions: PasswordOptions): string => {
   // get the specified password length
   const { length } = passwordOptions;
   
@@ -215,13 +215,3 @@ const generatePassword = (passwordOptions: PasswordOptions): string => {
   password = secureShuffleString(password);
   return password;
 }
-
-const samplePasswordOptions = {
-  length: 6,
-  hasUppercase: true,
-  hasLowercase: true,
-  hasNumbers: false,
-  hasSpecialCharacters: false,
-};
-
-console.log(generatePassword(samplePasswordOptions));
