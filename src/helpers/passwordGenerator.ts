@@ -1,4 +1,4 @@
-type PasswordOptions = {
+export type PasswordOptions = {
   length: number;
   hasUppercase: boolean;
   hasLowercase: boolean;
