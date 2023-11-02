@@ -1,7 +1,7 @@
 export default function FormSlider(props) {
   return (
     <div class="form-section__slider-container">
-      <label for="length">Password Length</label>
+      <label for="length">Password Length: {props.passwordLength}</label>
       <input
         type="range"
         id="length"
