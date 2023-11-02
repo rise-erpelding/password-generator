@@ -1,0 +1,30 @@
+.form-section {
+  & form {
+    margin: 1rem 0;
+  }
+  
+  &__slider-container {
+    margin: 1rem 0;
+    label {
+      display: block;
+      margin: 0.5rem 0;
+    }
+    input {
+      display: block;
+      margin: 0.5rem 0;
+      width: 100%;
+    }
+  }
+  
+  &__individual-checkbox-container {
+    & label {
+      display: inline-block;
+    }
+    & input {
+      display: inline-block;
+    }
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}

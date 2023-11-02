@@ -31,6 +31,7 @@
 
 //    Most likely, these will be imported via @use in other files, not
 //    included in this entry point file.
+@forward "settings/variables";    
 
 // =====================================================================
 // 2. Tools
@@ -52,6 +53,7 @@
 // 4. Elements
 //    Styling for bare HTML elements (like H1, A, etc.). These come with
 //    default styling from the browser so we can redefine them here.
+@forward "elements/elements";
 
 // =====================================================================
 // 5. Objects
@@ -62,7 +64,11 @@
 // 6. Components
 //    Specific UI components. This is where majority of our work takes place
 //    and our UI components are often composed of Objects and Components
+@forward 'components/App';
+@forward 'components/form-section';
+@forward 'components/header';
 @forward 'components/lock-graphic';
+@forward 'components/main';
 @forward 'components/password-graphic';
 @forward 'components/password-section';
 
