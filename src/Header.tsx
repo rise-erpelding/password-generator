@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header class="header">
       <SvgLock />
-      <div class="password-art">
+      <div class="password-graphic">
         <SvgX />
         <SvgX />
         <SvgX />

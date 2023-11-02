@@ -1,4 +1,4 @@
-import './App.scss';
+import './scss/base.scss';
 
 import { Component, createSignal } from 'solid-js';
 import Header from './Header';
