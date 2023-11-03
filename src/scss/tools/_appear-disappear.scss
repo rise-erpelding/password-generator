@@ -1,0 +1,83 @@
+@keyframes appearDisappearFirst {
+  0% {
+    visibility: hidden;
+  }
+  20% {
+    visibility: hidden;
+  }
+  40% {
+    visibility: visible;
+  }
+  60% {
+    visibility: visible;
+  }
+  80% {
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes appearDisappearSecond {
+  0% {
+    visibility: hidden;
+  }
+  20% {
+    visibility: hidden;
+  }
+  40% {
+    visibility: hidden;
+  }
+  60% {
+    visibility: visible;
+  }
+  80% {
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes appearDisappearThird {
+  0% {
+    visibility: hidden;
+  }
+  20% {
+    visibility: hidden;
+  }
+  40% {
+    visibility: hidden;
+  }
+  60% {
+    visibility: hidden;
+  }
+  80% {
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes appearDisappearFourth {
+  0% {
+    visibility: hidden;
+  }
+  20% {
+    visibility: hidden;
+  }
+  40% {
+    visibility: hidden;
+  }
+  60% {
+    visibility: hidden;
+  }
+  80% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
