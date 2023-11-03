@@ -47,7 +47,7 @@ export default function FormSection(props) {
 
   return (
     <section class="form-section">
-      {formErrorSection()}
+      
       <form onsubmit={handleSubmit}>
         <FormSlider passwordLength={passwordLength()} handleSlide={handleLengthChange} />
         <div class="form-section__checkbox-area">
@@ -60,6 +60,7 @@ export default function FormSection(props) {
           <input type="submit" value="Generate!" class="form-section__generate-button" />
         </div>
       </form>
+      {formErrorSection()}
     </section>
   );
 }

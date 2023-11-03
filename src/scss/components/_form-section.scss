@@ -13,7 +13,12 @@
       display: block;
       margin: 0.5rem 0;
       width: 100%;
+      cursor: grab;
     }
+  }
+
+  &__error {
+    color: var(--red);
   }
   
   &__individual-checkbox-container {
@@ -26,6 +31,11 @@
     margin: 0.5rem 0;
     display: flex;
     justify-content: space-between;
+
+    & input,
+    label {
+      cursor: pointer;
+    }
   }
 
   &__input-container {
@@ -39,5 +49,6 @@
     border-radius: 12px;
     font-family: inherit;
     padding: 0.5rem 1rem;
+    cursor: pointer;
   }
 }
