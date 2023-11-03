@@ -31,7 +31,8 @@
 
 //    Most likely, these will be imported via @use in other files, not
 //    included in this entry point file.
-@forward "settings/variables";    
+@forward "settings/fonts";
+@forward "settings/variables";
 
 // =====================================================================
 // 2. Tools

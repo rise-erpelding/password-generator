@@ -10,10 +10,12 @@ export default function PasswordSection(props) {
     setPasswordStrength(ratePasswordStrength(selectedPasswordOptions()));
   });
 
+  const strengthClassName = () => `password-section__strength password-section__strength--${passwordStrength()}`;
+
   return (
     <section class="password-section">
       <Password regeneratePassword={props.regeneratePassword} />
-      <p class="password-section__strength">
+      <p class={strengthClassName()}>
         {passwordStrength()}
       </p>
     </section>

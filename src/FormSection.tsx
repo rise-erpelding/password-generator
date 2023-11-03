@@ -56,7 +56,9 @@ export default function FormSection(props) {
           <FormCheckbox name="Numbers" toggleChange={toggleCheckboxState} />
           <FormCheckbox name="Special Characters" toggleChange={toggleCheckboxState} />
         </div>
-        <input type="submit" value="Generate!" />
+        <div class="form-section__input-container">
+          <input type="submit" value="Generate!" class="form-section__generate-button" />
+        </div>
       </form>
     </section>
   );
