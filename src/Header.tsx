@@ -12,7 +12,7 @@ export default function Header() {
         <SvgX />
       </div>
       <h1>Password Generator</h1>
-      <p class="tagline">Create strong and secure passwords to keep your account safe online.</p>
+      <p class="header__tagline">Create strong and secure passwords to keep your account safe online.</p>
     </header>
   );
 }
