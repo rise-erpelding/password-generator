@@ -42,6 +42,7 @@
 
 //    Most likely, these will be imported via @use in other files, not
 //    included in this entry point file.
+@forward "tools/appear-disappear";
 
 // =====================================================================
 // 3. Generic
