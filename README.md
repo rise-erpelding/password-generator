@@ -32,3 +32,5 @@ Your app is ready to be deployed!
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
+This app is currently deployed at https://clever-puppy-3e63cb.netlify.app/
